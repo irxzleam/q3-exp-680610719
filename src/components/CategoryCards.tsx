@@ -8,7 +8,15 @@ import {
   Gamepad2,
   MoreHorizontal,
 } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 const iconMap: Record<string, React.ReactNode> = {
   Food: <Utensils className="h-4 w-4" />,
