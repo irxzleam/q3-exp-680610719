@@ -43,6 +43,8 @@ export function ItemList() {
               </TableRow>
             ) : (
               // replace the following hardcoded row with the dynamic mapping of data items
+
+              //{expenses.map((expense) => (
               <TableRow>
                 <TableCell className="text-muted-foreground">
                   2026-10-05
